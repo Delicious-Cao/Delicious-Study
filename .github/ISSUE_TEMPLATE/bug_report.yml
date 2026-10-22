@@ -1,0 +1,32 @@
+name: 问题反馈
+description: 报告可复现的诊断、讲解、工具适配或小题验证问题
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Skill 版本
+      placeholder: "例如 v1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 运行环境
+      description: "说明宿主、模型（如可知）以及 ask／用户输入工具是否可用。"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 最小输入与复现对话
+      description: "只提供可公开的脱敏片段，不上传凭据、个人身份资料或私有课件。"
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: 预期与实际表现
+      description: "说明问题发生在诊断、确认、讲解还是小题环节。"
+    validations:
+      required: true

@@ -1,0 +1,17 @@
+name: 改进建议
+description: 提出具体的学习场景与期望行为
+title: "[Feature] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景与目前的困难
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望的行为与示例
+      description: "请说明什么样的回答或流程能够改善这个场景。"
+    validations:
+      required: true

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Delicious-Study"
+  short_description: "通过多轮询问定位知识断点，针对性讲解并用关联小题验证理解"
